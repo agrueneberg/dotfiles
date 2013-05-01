@@ -1,0 +1,25 @@
+[user]
+  name = Alexander Grüneberg
+  email = alexander.grueneberg@googlemail.com
+
+[core]
+  editor = vim
+  excludesfile = /Users/agrueneberg/.gitignore
+
+[color]
+  ui = true
+
+[alias]
+  d = diff --ignore-space-change
+  l = log --oneline --graph
+  lp = log --patch
+  s = status --short
+
+[merge]
+  tool = mvimdiff
+
+[diff]
+  tool = mvimdiff
+
+[mergetool "mvimdiff"]
+  cmd = mvimdiff -f -d -c \"wincmd J\" \"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
