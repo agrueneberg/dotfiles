@@ -16,4 +16,4 @@
   s = status --short
 
 [diff]
-  tool = mvimdiff
+  tool = vimdiff
