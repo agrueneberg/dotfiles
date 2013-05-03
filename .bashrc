@@ -22,5 +22,5 @@ fi
 # Aliases
 alias ls='ls --color -F'
 alias tree='tree -C'
-alias grep='grep --color --exclude-dir=.git'
+alias grep='grep --color'
 alias hosts="sudo $EDITOR /etc/hosts"
