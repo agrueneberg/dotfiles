@@ -14,11 +14,6 @@ set noswapfile
 " Hide buffer when it is abandoned.
 set hidden
 
-if has("unix")
-    " A variant of 'unnamed' flag which uses the clipboard register '+' instead of register '*' 
-    set clipboard=unnamedplus
-end
-
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
 
