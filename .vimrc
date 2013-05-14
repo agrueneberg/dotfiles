@@ -20,6 +20,9 @@ set backspace=indent,eol,start
 " Enable plugin files for specific file types.
 filetype plugin on
 
+" Disable code folding (enabled by `filetype plugin on`).
+set nofoldenable
+
 " Switch syntax highlighting on.
 syntax on
 
