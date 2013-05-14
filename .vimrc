@@ -17,6 +17,9 @@ set hidden
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
 
+" Enable plugin files for specific file types.
+filetype plugin on
+
 " Switch syntax highlighting on.
 syntax on
 
