@@ -26,7 +26,8 @@ set nofoldenable
 " Switch syntax highlighting on.
 syntax on
 
-" Enable relative line numbers for easier jumping.
+" Enable both line numbers and relative line numbers.
+set number
 set relativenumber
 
 " Show whitespace.
