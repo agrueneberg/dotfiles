@@ -9,10 +9,10 @@
 	url = git@github.com:millermedeiros/vim-statline.git
 [submodule ".vim/bundle/gitgutter"]
 	path = .vim/bundle/gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
+	url = git@github.com:airblade/vim-gitgutter.git
 [submodule ".vim/bundle/tomorrow"]
 	path = .vim/bundle/tomorrow
-	url = https://github.com/d11wtq/tomorrow-theme-vim
+	url = git@github.com:d11wtq/tomorrow-theme-vim
 [submodule ".vim/bundle/ack"]
 	path = .vim/bundle/ack
 	url = git@github.com:mileszs/ack.vim.git
