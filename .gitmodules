@@ -16,3 +16,6 @@
 [submodule ".vim/bundle/ack"]
 	path = .vim/bundle/ack
 	url = git@github.com:mileszs/ack.vim.git
+[submodule ".vim/bundle/emmet"]
+	path = .vim/bundle/emmet
+	url = git@github.com:mattn/emmet-vim.git
