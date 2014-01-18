@@ -4,11 +4,8 @@ export EDITOR='vim'
 export JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF8"
 
 # ------------------------------------------------------------------------------
-# Completions
-source ~/.completion/git-prompt.sh
-
-# ------------------------------------------------------------------------------
 # Prompt
+source /usr/share/git/completion/git-prompt.sh
 PS1='\[\e[1;31m\]\u\[\e[m\] at \[\e[1;31m\]\h\[\e[m\] in \[\e[1;31m\]\w\[\e[m\]$(__git_ps1 " on \[\e[1;31m\]%s\[\e[m\]")\n\[\e[1;31m\]$\[\e[m\] '
 
 # ------------------------------------------------------------------------------
