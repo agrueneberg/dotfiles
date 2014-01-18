@@ -6,7 +6,6 @@ export JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF8"
 # ------------------------------------------------------------------------------
 # Completions
 source ~/.completion/git-prompt.sh
-source ~/.completion/git-completion.bash
 
 # ------------------------------------------------------------------------------
 # Prompt
