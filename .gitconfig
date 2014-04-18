@@ -11,6 +11,7 @@
 
 [alias]
   ap = add -p
+  c = commit
   ca = commit --amend
   cm = commit -m
   d = diff --ignore-space-change
