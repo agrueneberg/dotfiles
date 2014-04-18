@@ -11,6 +11,7 @@
 
 [alias]
   ap = add -p
+  cm = commit -m
   d = diff --ignore-space-change
   l = log --oneline --graph
   lp = log --patch
