@@ -10,6 +10,7 @@
   ui = true
 
 [alias]
+  ap = add -p
   d = diff --ignore-space-change
   l = log --oneline --graph
   lp = log --patch
