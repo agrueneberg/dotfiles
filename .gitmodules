@@ -16,3 +16,6 @@
 [submodule ".vim/bundle/emmet"]
 	path = .vim/bundle/emmet
 	url = git@github.com:mattn/emmet-vim.git
+[submodule ".vim/bundle/surround"]
+	path = .vim/bundle/surround
+	url = git@github.com:tpope/vim-surround.git
