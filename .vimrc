@@ -41,6 +41,7 @@ set incsearch
 
 " Ignore case in search.
 set ignorecase
+set smartcase
 
 " Enable modelines.
 set modeline
