@@ -78,16 +78,6 @@ set shortmess+=I
 " Change leader key.
 let mapleader=","
 
-" Disable arrow keys.
-inoremap <Up> <nop>
-inoremap <Down> <nop>
-inoremap <Left> <nop>
-inoremap <Right> <nop>
-noremap <Up> <nop>
-noremap <Down> <nop>
-noremap <Left> <nop>
-noremap <Right> <nop>
-
 " Map jj to Esc.
 inoremap jj <Esc>
 
@@ -103,10 +93,6 @@ nnoremap j gj
 nnoremap k gk
 nnoremap gj j
 nnoremap gk k
-
-" Jump to the middle of the screen.
-nnoremap n nzz
-nnoremap N Nzz
 
 " Always display status line.
 set laststatus=2
