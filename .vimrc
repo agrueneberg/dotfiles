@@ -97,3 +97,6 @@ nnoremap gk k
 
 " Always display status line.
 set laststatus=2
+
+" Display all buffers when there is only one tab open.
+let g:airline#extensions#tabline#enabled=1
