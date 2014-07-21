@@ -9,7 +9,7 @@
 	url = git@github.com:airblade/vim-gitgutter.git
 [submodule ".vim/bundle/tomorrow"]
 	path = .vim/bundle/tomorrow
-	url = git@github.com:d11wtq/tomorrow-theme-vim
+	url = git@github.com:chriskempson/vim-tomorrow-theme.git
 [submodule ".vim/bundle/ack"]
 	path = .vim/bundle/ack
 	url = git@github.com:mileszs/ack.vim.git
