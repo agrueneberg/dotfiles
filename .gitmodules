@@ -1,6 +1,6 @@
 [submodule ".vim/bundle/snipmate"]
 	path = .vim/bundle/snipmate
-	url = git@github.com:msanders/snipmate.vim.git
+	url = git@github.com:garbas/vim-snipmate.git
 [submodule ".vim/bundle/statline"]
 	path = .vim/bundle/statline
 	url = git@github.com:millermedeiros/vim-statline.git
