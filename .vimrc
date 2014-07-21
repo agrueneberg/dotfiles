@@ -107,3 +107,6 @@ nnoremap gk k
 " Jump to the middle of the screen.
 nnoremap n nzz
 nnoremap N Nzz
+
+" Always display status line.
+set laststatus=2
