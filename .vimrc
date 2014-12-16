@@ -49,6 +49,9 @@ set modeline
 " Show suggestions bar when hitting <Tab>.
 set wildmenu
 
+" Exclude files in wildmenu and CtrlP.
+set wildignore+=*.class
+
 " Do not show whitespace in diff view.
 set diffopt=filler,vertical,iwhite
 
