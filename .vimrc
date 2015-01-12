@@ -28,7 +28,9 @@ syntax on
 
 " Enable both line numbers and relative line numbers.
 set number
-set relativenumber
+if has('relativenumber')
+  set relativenumber
+endif
 
 " Show whitespace.
 set list listchars=tab:»·,trail:·
