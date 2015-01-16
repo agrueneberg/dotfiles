@@ -2,7 +2,7 @@
 # ---------
 export EDITOR='vim'
 export JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF8"
-export R_LIBS='~/.Rpackages'
+export R_LIBS='~/.pkgs/R'
 
 # Prompt
 # ------
