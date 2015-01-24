@@ -4,7 +4,7 @@ export EDITOR='vim'
 export JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF8"
 export NPM_CONFIG_PREFIX='~/.pkgs/npm'
 export R_LIBS='~/.pkgs/R'
-export PATH="~/.pkgs/npm/bin:$PATH"
+export PATH="$(ruby -e 'print Gem.user_dir')/bin:~/.pkgs/npm/bin:$PATH"
 
 # Prompt
 # ------
