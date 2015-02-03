@@ -31,7 +31,7 @@ syntax on
 
 " Enable both line numbers and relative line numbers.
 set number
-if has('relativenumber')
+if exists("&relativenumber")
   set relativenumber
 endif
 
