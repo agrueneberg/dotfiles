@@ -82,3 +82,6 @@ let g:airline#extensions#tabline#enabled=1
 
 " More readable font colors on dark background.
 set background=dark
+
+" Prettier sign column.
+highlight clear SignColumn
