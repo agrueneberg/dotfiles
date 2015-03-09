@@ -1,5 +1,4 @@
 scriptencoding utf-8
-set encoding=utf-8
 
 " Let Pathogen load plugins.
 call pathogen#infect()
@@ -13,17 +12,8 @@ set noswapfile
 " Hide buffer when it is abandoned.
 set hidden
 
-" Make backspace behave in a sane manner.
-set backspace=indent,eol,start
-
-" Enable plugin files for specific file types.
-filetype plugin on
-
 " Disable code folding (enabled by `filetype plugin on`).
 set nofoldenable
-
-" Switch syntax highlighting on.
-syntax on
 
 " Enable both line numbers and relative line numbers.
 set number
@@ -37,18 +27,12 @@ set list listchars=tab:»·,trail:·
 " Highlight search results.
 set hlsearch
 
-" Enable incremental search.
-set incsearch
-
 " Ignore case in search.
 set ignorecase
 set smartcase
 
 " Enable modelines.
 set modeline
-
-" Show suggestions bar when hitting <Tab>.
-set wildmenu
 
 " Exclude files in wildmenu and CtrlP.
 set wildignore+=*.class
@@ -59,14 +43,8 @@ set diffopt=filler,vertical,iwhite
 " Use spaces instead of tabs.
 set expandtab
 
-" Copy indent from current line when starting a new line.
-set autoindent
-
 " Do smart autoindenting when starting a new line.
 set smartindent
-
-" When on, a <Tab> in front of a line inserts blanks according to shiftwidth.
-set smarttab
 
 " Number of spaces that a <Tab> counts for while performing editing operations.
 set softtabstop=4
@@ -98,9 +76,6 @@ nnoremap j gj
 nnoremap k gk
 nnoremap gj j
 nnoremap gk k
-
-" Always display status line.
-set laststatus=2
 
 " Display all buffers when there is only one tab open.
 let g:airline#extensions#tabline#enabled=1
