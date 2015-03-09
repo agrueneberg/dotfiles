@@ -1,10 +1,6 @@
 scriptencoding utf-8
 set encoding=utf-8
 
-" Use Vim settings, rather than Vi settings (much better!).
-" This must be first, because it changes other options as a side effect.
-set nocompatible
-
 " Let Pathogen load plugins.
 call pathogen#infect()
 
