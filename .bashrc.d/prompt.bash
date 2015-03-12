@@ -1,4 +1,6 @@
-if [ -f /usr/share/git/completion/git-prompt.sh ]; then
+if [ -f /etc/bash_completion.d/git-prompt ]; then
+  source /etc/bash_completion.d/git-prompt
+elif [ -f /usr/share/git/completion/git-prompt.sh ]; then
   source /usr/share/git/completion/git-prompt.sh
 elif [ -f /usr/share/git-core/contrib/completion/git-prompt.sh ]; then
   source /usr/share/git-core/contrib/completion/git-prompt.sh
