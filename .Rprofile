@@ -1,8 +1,10 @@
 .First <- function() {
   options(
-    repos = c(CRAN = "http://cran.rstudio.com/"),
+    repos = c(CRAN = "https://cran.rstudio.com/"),
+    download.file.method = "libcurl",
     browserNLdisabled = TRUE,
-    deparse.max.lines = 2)
+    deparse.max.lines = 2
+  )
 }
 
 if (interactive()) {
