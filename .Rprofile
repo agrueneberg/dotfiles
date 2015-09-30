@@ -1,7 +1,7 @@
 .First <- function() {
   options(
     repos = c(CRAN = "https://cran.rstudio.com/"),
-    download.file.method = "libcurl",
+    download.file.method = "wget",
     browserNLdisabled = TRUE,
     deparse.max.lines = 2
   )
