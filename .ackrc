@@ -1,2 +1,2 @@
 --ignore-dir=.Rproj.user
---ignore-file=.Rhistory
+--ignore-file=is:.Rhistory
