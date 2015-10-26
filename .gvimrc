@@ -8,5 +8,4 @@ elseif has("gui_macvim")
 elseif has("gui_win32")
     set guifont=Consolas:h15
 end
-set cursorline
 colorscheme Tomorrow-Night

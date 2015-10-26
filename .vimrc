@@ -89,5 +89,8 @@ let g:airline#extensions#tabline#enabled=1
 " More readable font colors on dark background.
 set background=dark
 
+" Highlight current line.
+set cursorline
+
 " Prettier sign column.
 highlight clear SignColumn
