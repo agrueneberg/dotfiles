@@ -3,6 +3,9 @@ scriptencoding utf-8
 " Let Pathogen load plugins.
 call pathogen#infect()
 
+" Disable startup message.
+set shortmess+=I
+
 " Disable backups.
 set nobackup
 
@@ -12,14 +15,8 @@ set noswapfile
 " Hide buffer when it is abandoned.
 set hidden
 
-" Disable code folding (enabled by `filetype plugin on`).
-set nofoldenable
-
-" Enable both line numbers and relative line numbers.
-set number
-if exists("&relativenumber")
-  set relativenumber
-endif
+" Enable modelines.
+set modeline
 
 " Show whitespace.
 set list listchars=tab:»·,trail:·
@@ -31,32 +28,44 @@ set hlsearch
 set ignorecase
 set smartcase
 
-" Enable modelines.
-set modeline
+" Copy indent from current line when starting a new line.
+set autoindent
+
+" Use spaces instead of tabs.
+set expandtab
+
+" Number of spaces that a <Tab> in the file counts for.
+set tabstop=4
+
+" Number of spaces that a <Tab> counts for while performing editing operations.
+set softtabstop=4
+
+" Number of spaces to use for each step of (auto)indent.
+set shiftwidth=4
+
+" More readable font colors on dark background.
+set background=dark
+
+" Highlight current line.
+set cursorline
+
+" Prettier sign column.
+highlight clear SignColumn
+
+" Enable both line numbers and relative line numbers.
+set number
+if exists("&relativenumber")
+  set relativenumber
+endif
+
+" Disable code folding (enabled by `filetype plugin on`).
+set nofoldenable
 
 " Exclude files in wildmenu and CtrlP.
 set wildignore+=*.class
 
 " Do not show whitespace in diff view.
 set diffopt=filler,vertical,iwhite
-
-" Use spaces instead of tabs.
-set expandtab
-
-" Copy indent from current line when starting a new line.
-set autoindent
-
-" Number of spaces that a <Tab> counts for while performing editing operations.
-set softtabstop=4
-
-" Number of spaces that a <Tab> in the file counts for.
-set tabstop=4
-
-" Number of spaces to use for each step of (auto)indent.
-set shiftwidth=4
-
-" Disable startup message.
-set shortmess+=I
 
 " Change leader key.
 let mapleader=","
@@ -85,12 +94,3 @@ nmap <silent> <C-l> :wincmd l<CR>
 
 " Display all buffers when there is only one tab open.
 let g:airline#extensions#tabline#enabled=1
-
-" More readable font colors on dark background.
-set background=dark
-
-" Highlight current line.
-set cursorline
-
-" Prettier sign column.
-highlight clear SignColumn
