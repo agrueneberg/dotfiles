@@ -43,8 +43,8 @@ set diffopt=filler,vertical,iwhite
 " Use spaces instead of tabs.
 set expandtab
 
-" Do smart autoindenting when starting a new line.
-set smartindent
+" Copy indent from current line when starting a new line.
+set autoindent
 
 " Number of spaces that a <Tab> counts for while performing editing operations.
 set softtabstop=4
