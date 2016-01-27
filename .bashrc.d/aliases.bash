@@ -9,3 +9,4 @@ alias rtest="Rscript -e 'library(methods); devtools::test()'"
 alias rcheck="Rscript -e 'library(methods); devtools::check()'"
 alias rtidy="Rscript -e 'library(methods); args <- commandArgs(trailingOnly = TRUE); stopifnot(length(args) > 0); if (dir.exists(args[1])) formatR::tidy_dir(args[1], arrow = TRUE, recursive = TRUE) else formatR::tidy_source(args[1], arrow = TRUE, file = args[1])'"
 alias rmarkdown="Rscript -e 'library(methods); args <- commandArgs(trailingOnly = TRUE); stopifnot(length(args) > 0); rmarkdown::render(args[1], rmarkdown::html_document())'"
+alias plink='plink --noweb'
