@@ -1,0 +1,2 @@
+# Display matches for ambiguous patterns at first tab press
+set show-all-if-ambiguous on
