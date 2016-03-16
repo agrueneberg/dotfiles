@@ -1,4 +1,5 @@
 alias ls='ls --color'
+alias ll='ls -l'
 alias tree='tree -C'
 alias grep='grep --color'
 alias hosts="sudo $EDITOR /etc/hosts"
