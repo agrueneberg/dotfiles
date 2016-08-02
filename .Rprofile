@@ -13,4 +13,10 @@ if (interactive()) {
         .Internal(quit(save, status, runLast))
     }, "base")
 
+    attach(what = NULL, name = "utility")
+
+    assign(x = "rand", value = function(n, p) {
+        matrix(data = rnorm(n * p), nrow = n, ncol = p)
+    }, pos = "utility")
+
 }
