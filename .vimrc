@@ -86,6 +86,9 @@ nnoremap k gk
 nnoremap gj j
 nnoremap gk k
 
+" Search for visually selected text
+vnoremap // y/<C-R>"<CR>
+
 " Make split selection possible on Chrome OS.
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-j> :wincmd j<CR>
