@@ -9,9 +9,6 @@ set noswapfile
 " Hide buffer when it is abandoned.
 set hidden
 
-" Enable modelines.
-set modeline
-
 " Show whitespace.
 set list listchars=tab:»·,trail:·
 
