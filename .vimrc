@@ -1,7 +1,11 @@
-scriptencoding utf-8
+" Load plugins.
+call plug#begin('~/.vim/plugged')
+    Plug 'tpope/vim-sensible'
+    Plug 'vim-airline/vim-airline'
+    Plug 'airblade/vim-gitgutter'
+call plug#end()
 
-" Let Pathogen load plugins.
-call pathogen#infect()
+scriptencoding utf-8
 
 " Disable swap files.
 set noswapfile
