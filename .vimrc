@@ -3,9 +3,6 @@ scriptencoding utf-8
 " Let Pathogen load plugins.
 call pathogen#infect()
 
-" Disable backups.
-set nobackup
-
 " Disable swap files.
 set noswapfile
 
