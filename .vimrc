@@ -9,9 +9,6 @@ set noswapfile
 " Hide buffer when it is abandoned.
 set hidden
 
-" Show whitespace.
-set list listchars=tab:»·,trail:·
-
 " Highlight search results.
 set hlsearch
 
@@ -31,13 +28,16 @@ set softtabstop=4
 " Number of spaces to use for each step of (auto)indent.
 set shiftwidth=4
 
+" Show whitespace.
+set list listchars=tab:»·,trail:·
+
 " More readable font colors on dark background.
 set background=dark
 
 " Highlight current line.
 set cursorline
 
-" Prettier sign column.
+" Prettier sign column (for gitgutter).
 highlight clear SignColumn
 
 " Enable both line numbers and relative line numbers.
