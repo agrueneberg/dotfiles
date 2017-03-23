@@ -13,6 +13,9 @@ set noswapfile
 " Hide buffer when it is abandoned.
 set hidden
 
+" Yank to + by default.
+set clipboard=unnamedplus
+
 " Highlight search results.
 set hlsearch
 
