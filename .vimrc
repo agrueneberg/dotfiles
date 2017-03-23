@@ -19,9 +19,6 @@ set hlsearch
 set ignorecase
 set smartcase
 
-" Copy indent from current line when starting a new line.
-set autoindent
-
 " Use spaces instead of tabs.
 set expandtab
 
