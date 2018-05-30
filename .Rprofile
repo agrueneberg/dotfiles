@@ -18,8 +18,13 @@ if (interactive()) {
 
     attach(what = NULL, name = "utility")
 
-    assign(x = "rand", value = function(n, p) {
-        matrix(data = rnorm(n * p), nrow = n, ncol = p)
+    assign(x = "rand", value = function(n, p, named = FALSE) {
+        if (named) {
+            names <- list(paste0("row", seq_len(n)), paste0("col", seq_len(p)))
+        } else {
+            names = NULL
+        }
+        matrix(data = rnorm(n * p), nrow = n, ncol = p, dimnames = names)
     }, pos = "utility")
 
     assign(x = "restart", value = function() {
