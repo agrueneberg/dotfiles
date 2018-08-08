@@ -13,3 +13,6 @@ HISTSIZE=1000000
 
 # Write history after every line whenever displaying the prompt
 PROMPT_COMMAND='history -a'
+
+# Disable XON/XOFF so that Ctrl-s can be used to forward search history
+[[ $- == *i* ]] && stty -ixon
