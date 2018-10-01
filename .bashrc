@@ -1,3 +1,9 @@
+# Make sure shell is interactive (for scp)
+case $- in
+    *i*) ;;
+    *) return ;;
+esac
+
 # Load any supplementary scripts
 for config in "$HOME"/.bashrc.d/*.bash; do
     source "$config"
