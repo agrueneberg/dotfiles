@@ -15,4 +15,4 @@ HISTSIZE=1000000
 PROMPT_COMMAND='history -a'
 
 # Disable XON/XOFF so that Ctrl-s can be used to forward search history
-[[ $- == *i* ]] && stty -ixon
+stty -ixon
