@@ -1,5 +1,3 @@
-export PATH="$HOME/.local/bin:$PATH"
-
 export EDITOR='vim'
 
 export JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF8"
