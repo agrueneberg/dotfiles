@@ -3,11 +3,6 @@ if command -v node >/dev/null 2>&1; then
     export PATH="$npm_config_prefix/bin:$PATH"
 fi
 
-if command -v go >/dev/null 2>&1; then
-    export GOPATH="$HOME/.pkgs/go"
-    export PATH="$GOPATH/bin:$PATH"
-fi
-
 export PATH="$HOME/.local/bin:$PATH"
 
 export EDITOR='vim'
