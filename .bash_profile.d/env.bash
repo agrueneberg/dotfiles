@@ -1,8 +1,3 @@
-if command -v ruby >/dev/null 2>&1; then
-    export GEM_HOME=$(ruby -e 'print Gem.user_dir')
-    export PATH="$GEM_HOME/bin:$PATH"
-fi
-
 if command -v node >/dev/null 2>&1; then
     export npm_config_prefix="$HOME/.pkgs/npm"
     export PATH="$npm_config_prefix/bin:$PATH"
