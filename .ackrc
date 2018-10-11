@@ -1,3 +1,2 @@
---ignore-dir=node_modules
 --ignore-dir=.Rproj.user
 --ignore-file=is:.Rhistory
