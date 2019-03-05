@@ -69,9 +69,6 @@ set diffopt=filler,vertical,iwhite
 " Change leader key.
 let mapleader=","
 
-" Map jj to Esc.
-inoremap jj <Esc>
-
 " Make Y behave like other capitals.
 map Y y$
 
