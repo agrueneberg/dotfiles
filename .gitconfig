@@ -4,7 +4,6 @@
 
 [core]
   editor = vim
-  excludesfile = ~/.gitignore
 
 [alias]
   ap = add -p
