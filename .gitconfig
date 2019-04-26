@@ -6,9 +6,6 @@
   editor = vim
   excludesfile = ~/.gitignore
 
-[color]
-  ui = true
-
 [alias]
   ap = add -p
   c = commit
