@@ -1,11 +1,11 @@
+" Load the default vimrc file.
+source $VIMRUNTIME/defaults.vim
+
 " Load plugins.
 call plug#begin('~/.vim/plugged')
-    Plug 'tpope/vim-sensible'
     Plug 'vim-airline/vim-airline'
     Plug 'airblade/vim-gitgutter'
 call plug#end()
-
-scriptencoding utf-8
 
 " Disable swap files.
 set noswapfile
