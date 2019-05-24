@@ -1,2 +1,17 @@
-# Display matches for ambiguous patterns at first tab press
+# Readline never rings the bell
+set bell-style none
+
+# Words which have more than one possible completion cause the
+# matches to be listed immediately instead of ringing the bell
 set show-all-if-ambiguous on
+
+# Completed names which are symbolic links to directories have a slash appended
+set mark-symlinked-directories on
+
+# Readline displays possible completions using different colors to indicate
+# their file type
+set colored-stats on
+
+# When listing completions, Readline displays the common prefix of the set of
+# possible completion using a different color
+set colored-completion-prefix on
