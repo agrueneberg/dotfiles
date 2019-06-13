@@ -11,7 +11,7 @@
   ca = commit --amend
   cm = commit -m
   d = diff --ignore-space-change --color-words
-  ds = diff --staged
+  ds = d --staged
   l = log --oneline --graph
   lp = log --patch
   s = status --short
