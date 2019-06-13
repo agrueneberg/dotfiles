@@ -10,7 +10,7 @@
   c = commit
   ca = commit --amend
   cm = commit -m
-  d = diff --ignore-space-change
+  d = diff --ignore-space-change --color-words
   ds = diff --staged
   l = log --oneline --graph
   lp = log --patch
