@@ -25,9 +25,4 @@ if (interactive()) {
         matrix(data = rnorm(n * p), nrow = n, ncol = p, dimnames = names)
     }, pos = "utility")
 
-    assign(x = "restart", value = function() {
-        system("R")
-        q("no")
-    }, pos = "utility")
-
 }
