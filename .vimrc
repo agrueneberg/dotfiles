@@ -46,6 +46,10 @@ set background=dark
 " Highlight current line.
 set cursorline
 
+" Color column 80
+highlight ColorColumn ctermbg=gray
+set colorcolumn=80
+
 " Prettier sign column (for gitgutter).
 highlight clear SignColumn
 
