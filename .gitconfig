@@ -2,9 +2,6 @@
   name = Alexander Grueneberg
   email = git@agrueneberg.info
 
-[core]
-  editor = vim
-
 [alias]
   ap = add -p
   c = commit
