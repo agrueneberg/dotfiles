@@ -83,11 +83,5 @@ nnoremap gk k
 " Search for visually selected text
 vnoremap // y/<C-R>"<CR>
 
-" Make split selection possible on Chrome OS.
-nmap <silent> <C-h> :wincmd h<CR>
-nmap <silent> <C-j> :wincmd j<CR>
-nmap <silent> <C-k> :wincmd k<CR>
-nmap <silent> <C-l> :wincmd l<CR>
-
 " Display all buffers when there is only one tab open.
 let g:airline#extensions#tabline#enabled=1
