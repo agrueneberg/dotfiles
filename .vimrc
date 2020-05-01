@@ -74,6 +74,9 @@ let mapleader=","
 " Make Y behave like other capitals.
 map Y y$
 
+" Disable lowercasing in selection (too close to yanking).
+vmap u <Nop>
+
 " Reselect visual block after indent/outdent.
 vnoremap < <gv
 vnoremap > >gv
