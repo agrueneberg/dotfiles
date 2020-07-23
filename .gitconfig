@@ -2,6 +2,9 @@
   name = Alexander Grueneberg
   email = git@agrueneberg.info
 
+[pull]
+  ff = only
+
 [alias]
   ap = add -p
   c = commit
