@@ -8,7 +8,7 @@
 if (interactive()) {
 
     # Disable menus
-    options(menu.graphics=FALSE)
+    options(menu.graphics = FALSE)
 
     utils::assignInNamespace("q", function(save = "no", status = 0, runLast = TRUE) {
         .Internal(quit(save, status, runLast))
