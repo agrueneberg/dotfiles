@@ -68,9 +68,6 @@ set wildignore+=*.class
 " Do not show whitespace in diff view.
 set diffopt=filler,vertical,iwhite
 
-" Change leader key.
-let mapleader=","
-
 " Make Y behave like other capitals.
 map Y y$
 
