@@ -62,9 +62,6 @@ endif
 " Disable code folding (enabled by `filetype plugin on`).
 set nofoldenable
 
-" Exclude files in wildmenu.
-set wildignore+=*.class
-
 " Do not show whitespace in diff view.
 set diffopt=filler,vertical,iwhite
 
