@@ -1,7 +1,9 @@
 " Load plugins.
 call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-sensible'
+    Plug 'chriskempson/base16-vim'
     Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " Disable swap files.
@@ -74,5 +76,10 @@ nnoremap gk k
 " Search for visually selected text
 vnoremap // y/<C-R>"<CR>
 
+colorscheme base16-eighties
+
 " Display all buffers when there is only one tab open.
 let g:airline#extensions#tabline#enabled=1
+
+" Set airline theme.
+let g:airline_theme='base16_eighties'

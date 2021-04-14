@@ -1,0 +1,61 @@
+[[block]]
+block = "cpu"
+format = "{barchart}"
+warning = 90
+critical = 95
+
+[[block]]
+block = "memory"
+format_mem = "{MUg} / {MTg} GB"
+clickable = false
+
+[[block]]
+block = "disk_space"
+path = "/"
+info_type = "free"
+warning = 10
+alert = 5
+format = "{icon} root {free} GB"
+
+[[block]]
+block = "disk_space"
+path = "/home"
+info_type = "free"
+warning = 10
+alert = 5
+format = "{icon} home {free} GB"
+
+[[block]]
+block = "net"
+format = "{ssid} {ip}"
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "time"
+interval = 60
+format = "%Y/%m/%d %R"
+
+[theme]
+name = "plain"
+
+[theme.overrides]
+idle_bg = "#2d2d2d"
+idle_fg = "#d3d0c8"
+info_bg = "#66cccc"
+info_fg = "#2d2d2d"
+good_bg = "#99cc99"
+good_fg = "#2d2d2d"
+warning_bg = "#ffcc66"
+warning_fg = "#2d2d2d"
+critical_bg = "#f2777a"
+critical_fg = "#2d2d2d"
+separator_bg = "#2d2d2d"
+separator_fg = "#d3d0c8"
+
+[icons]
+name = "awesome5"
+
+[icons.overrides]
+disk_drive = "\uf0a0"
