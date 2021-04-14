@@ -2,7 +2,6 @@
 call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-sensible'
     Plug 'vim-airline/vim-airline'
-    Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 " Disable swap files.
@@ -49,12 +48,6 @@ set colorcolumn=80
 
 " Prettier sign column (for gitgutter).
 highlight clear SignColumn
-
-" Enable both line numbers and relative line numbers.
-set number
-if exists("&relativenumber")
-  set relativenumber
-endif
 
 " Disable code folding (enabled by `filetype plugin on`).
 set nofoldenable
