@@ -40,9 +40,6 @@ set shiftwidth=4
 " Show whitespace.
 set list listchars=tab:»·,trail:·
 
-" More readable font colors on dark background.
-set background=dark
-
 " Highlight current line.
 set cursorline
 
