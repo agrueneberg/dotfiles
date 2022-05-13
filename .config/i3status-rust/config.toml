@@ -6,7 +6,7 @@ critical = 95
 
 [[block]]
 block = "memory"
-format_mem = "{MUg} / {MTg} GB"
+format_mem = "{mem_used} / {mem_total}"
 clickable = false
 
 [[block]]
@@ -15,7 +15,7 @@ path = "/"
 info_type = "free"
 warning = 10
 alert = 5
-format = "{icon} root {free} GB"
+format = "{icon} root {free}"
 
 [[block]]
 block = "disk_space"
@@ -23,7 +23,7 @@ path = "/home"
 info_type = "free"
 warning = 10
 alert = 5
-format = "{icon} home {free} GB"
+format = "{icon} home {free}"
 
 [[block]]
 block = "net"
