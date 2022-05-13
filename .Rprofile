@@ -25,4 +25,8 @@ if (interactive()) {
         matrix(data = rnorm(n * p), nrow = n, ncol = p, dimnames = names)
     }, pos = "utility")
 
+    assign(x = "object_size", value = function(x) {
+        format(object.size(x), unit = "GB")
+    }, pos = "utility")
+
 }
