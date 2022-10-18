@@ -76,6 +76,7 @@ nnoremap gk k
 " Search for visually selected text
 vnoremap // y/<C-R>"<CR>
 
+set termguicolors
 colorscheme base16-eighties
 
 " Display all buffers when there is only one tab open.
