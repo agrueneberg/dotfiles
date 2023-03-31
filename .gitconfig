@@ -1,23 +1,23 @@
 [user]
-  name = Alexander Grueneberg
-  email = git@agrueneberg.info
+	name = Alexander Grueneberg
+	email = git@agrueneberg.info
 
 [pull]
-  ff = only
+	ff = only
 
 [alias]
-  ap = add -p
-  c = commit
-  ca = commit --amend
-  cm = commit -m
-  d = diff --ignore-space-change --color-words
-  ds = d --staged
-  l = log --oneline --graph
-  lp = log --patch
-  s = status --short
+	ap = add -p
+	c = commit
+	ca = commit --amend
+	cm = commit -m
+	d = diff --ignore-space-change --color-words
+	ds = d --staged
+	l = log --oneline --graph
+	lp = log --patch
+	s = status --short
 
 [diff]
-  tool = vimdiff
+	tool = vimdiff
 
 [init]
-  defaultBranch = main
+	defaultBranch = main
