@@ -1,3 +1,7 @@
+# Replace directory names with the results of word expansion when performing
+# filename completion
+shopt -s direxpand
+
 # Enable pattern ** in pathname expansion to match all files and zero or more
 # directories and subdirectories
 shopt -s globstar
