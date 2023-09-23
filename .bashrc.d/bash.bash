@@ -4,9 +4,6 @@ shopt -s globstar
 # Append to the history file rather than overwriting it
 shopt -s histappend
 
-# Save all lines of a multiple-line command in the same history entry
-shopt -s cmdhist
-
 # Increase size of history
 HISTFILESIZE=1000000000
 HISTSIZE=1000000
