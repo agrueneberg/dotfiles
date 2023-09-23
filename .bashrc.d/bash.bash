@@ -1,4 +1,5 @@
-# Enable pattern ** in pathname expansion to match all files and zero or more directories and subdirectories
+# Enable pattern ** in pathname expansion to match all files and zero or more
+# directories and subdirectories
 shopt -s globstar
 
 # Append to the history file rather than overwriting it
