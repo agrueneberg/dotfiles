@@ -1,0 +1,6 @@
+import = [
+    "~/.config/alacritty/base16-eighties.toml",
+]
+
+[font]
+size = 10
