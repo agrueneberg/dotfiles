@@ -8,3 +8,6 @@ true-color = true
 [editor.whitespace.render]
 space = "all"
 tab = "all"
+
+[editor.soft-wrap]
+enable = true
