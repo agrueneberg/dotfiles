@@ -128,7 +128,7 @@ bindsym $mod+f fullscreen toggle
 # Shutdown, reboot, lock screen
 set $mode_system System (l) lock, (e) exit, (r) reboot, (s) shutdown
 mode "$mode_system" {
-    bindsym l exec $locker
+    bindsym l exec $locker, mode "default"
     bindsym e exec swaymsg exit
     bindsym r exec systemctl reboot
     bindsym s exec systemctl poweroff -i
