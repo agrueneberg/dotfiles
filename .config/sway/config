@@ -125,9 +125,6 @@ bindsym $mod+e layout toggle split
 # Enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
 
-# Restart i3
-bindsym $mod+Shift+r restart
-
 # Shutdown, reboot, lock screen
 set $mode_system System (l) lock, (e) exit, (r) reboot, (s) shutdown
 mode "$mode_system" {
