@@ -1,4 +1,4 @@
-theme = "modus_operandi_deuteranopia"
+theme = "base16_default"
 
 [editor]
 line-number = "relative"
