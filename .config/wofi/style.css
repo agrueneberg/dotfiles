@@ -22,9 +22,9 @@ window {
 #input {
 	background-color: #282828;
 	color: #b8b8b8;
-	border-color: #383838; 
+	border-color: #383838;
 }
 
 #input:focus {
-	border-color: #f7ca88; 
+	border-color: #f7ca88;
 }
