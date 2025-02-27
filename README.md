@@ -11,3 +11,4 @@ For sway:
 - tofi
 - swaylock
 - swaybg
+- sway-contrib
