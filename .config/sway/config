@@ -14,7 +14,7 @@ set $right l
 set $term alacritty
 
 # Your preferred application launcher
-set $menu wofi --show run
+set $menu tofi-run | xargs swaymsg exec --
 
 # Your preferred locker
 set $locker swaylock --color "$base00"

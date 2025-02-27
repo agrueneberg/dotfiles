@@ -8,6 +8,6 @@ For sway:
 
 - alacritty
 - i3status-rs
-- wofi
+- tofi
 - swaylock
 - swaybg
