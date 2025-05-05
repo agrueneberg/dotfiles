@@ -1,0 +1,4 @@
+[[language]]
+name = "python"
+formatter = { command = "ruff", args = ["format", "-"]}
+auto-format = true
