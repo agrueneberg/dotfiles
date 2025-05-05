@@ -12,3 +12,8 @@ For sway:
 - swaylock
 - swaybg
 - sway-contrib
+
+For Helix:
+
+- ruff
+- python-lsp-server
